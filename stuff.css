@@ -1,12 +1,13 @@
 /* Style the header */
 .headBox {
   background-color: rgb(73, 73, 201);
-  background-position: top;
-  height: 200px;
+  padding: 60px;
   border-radius: 30px;
 }
 
-.griffPfp {
-  border-style: solid;
-  border-color: lightskyblue;
+#griffPfp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
 }
