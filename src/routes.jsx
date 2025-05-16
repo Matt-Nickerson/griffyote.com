@@ -15,6 +15,11 @@ export const routes = [
 
     },
     {
+        path: "/About",
+        errorElement: <div/>,
+        element: <About />,
+    },
+    {
         path: "/Portfolio",
         errorElement: <div/>,
         element: <Portfolio />,

@@ -18,29 +18,29 @@ function Taskbar() {
 
   return (
     <div>
-    <Navbar>
+    <Navbar shouldHideOnScroll>
       <NavbarBrand>
-        <p className="font-bold text-inherit">Griff Coyote </p>
+        <p className="font-semibold text-inherit">Griff Coyote </p>
         <img src={griff} alt="Griff" className=" ml-2 w-8 h-8 rounded-full" />
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/About" >
           About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link aria-current="foreground" href="#">
+          <Link color="foreground" href="/Art" >
             Art
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Portfolio" >
             Portfolio
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Schedule" >
             Schedule
           </Link>
         </NavbarItem>
@@ -52,12 +52,8 @@ function Taskbar() {
           </Button>
         </NavbarItem>
       </NavbarContent>
-    </Navbar>
-    
+    </Navbar> 
     </div>
-    
-
-    
     );
 }
 
