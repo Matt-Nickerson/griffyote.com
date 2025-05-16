@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgriffyote=self.webpackChunkgriffyote||[]).push([[707],{5707:(e,r,f)=>{f.r(r),f.d(r,{default:()=>k});var a=f(2555),s=f(4185),t=f(1391),u=f(2220);var k=(0,a.A)((0,a.A)({renderer:u.J},s.W),t.n)}}]);
+//# sourceMappingURL=707.65a47f7c.chunk.js.map
