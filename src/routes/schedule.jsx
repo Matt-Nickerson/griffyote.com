@@ -4,7 +4,7 @@ import React from "react";
 const Schedule = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold underline">
+            <h1 className="text-3xl font-bold">
                 Schedule
             </h1>
             <p className="text-lg">

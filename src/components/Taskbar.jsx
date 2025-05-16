@@ -1,46 +1,41 @@
 import '../App.css';
 import griff from '../GriffCircleHead.png';
-import {Image} from '@heroui/image';
 import {Navbar,
     NavbarBrand, 
     NavbarContent, 
     NavbarItem, 
-    NavbarMenuToggle,
-    NavbarMenu,
-    NavbarMenuItem
 } from '@heroui/navbar';
 import {Link} from '@heroui/link';
 import {Button} from '@heroui/button';
-import {useState} from 'react';
 
 function Taskbar() {
 
 
   return (
     <div>
-    <Navbar>
+    <Navbar shouldHideOnScroll>
       <NavbarBrand>
-        <p className="font-bold text-inherit">Griff Coyote </p>
-        <img src={griff} alt="Griff" className=" ml-2 w-8 h-8 rounded-full" />
+      <img src={griff} alt="Griff" className=" mr-2 w-8 h-8 rounded-full" />
+        <p className="font-semibold text-inherit">Griff Coyote </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/About" >
           About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link aria-current="foreground" href="#">
+          <Link color="foreground" href="/Art" >
             Art
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Portfolio" >
             Portfolio
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Schedule" >
             Schedule
           </Link>
         </NavbarItem>
@@ -52,12 +47,8 @@ function Taskbar() {
           </Button>
         </NavbarItem>
       </NavbarContent>
-    </Navbar>
-    
+    </Navbar> 
     </div>
-    
-
-    
     );
 }
 

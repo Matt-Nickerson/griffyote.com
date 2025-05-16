@@ -4,11 +4,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import Taskbar from './components/Taskbar';
 
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
- <App />
+ <>
+
+ <main className="dark text-foreground bg-background">
+    <Taskbar />
+      <App />
+      </main>
+ </>
 );
 
 // If you want to start measuring performance in your app, pass a function
