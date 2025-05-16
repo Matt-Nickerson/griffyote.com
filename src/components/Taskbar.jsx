@@ -1,6 +1,5 @@
 import '../App.css';
 import griff from '../GriffCircleHead.png';
-import ListOnTaskbar from './ListOnTaskbar';
 import {Image} from '@heroui/image';
 import {Navbar,
     NavbarBrand, 
@@ -22,7 +21,7 @@ function Taskbar() {
     <Navbar>
       <NavbarBrand>
         <p className="font-bold text-inherit">Griff Coyote </p>
-        <img src={griff} alt="Griff" className="w-8 h-8 rounded-full" />
+        <img src={griff} alt="Griff" className=" ml-2 w-8 h-8 rounded-full" />
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
@@ -47,12 +46,9 @@ function Taskbar() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+          <Button variant="shadow" color="primary">
+            Contact
           </Button>
         </NavbarItem>
       </NavbarContent>
