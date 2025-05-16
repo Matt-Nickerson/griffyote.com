@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87a8ed82.css",
+    "main.js": "/static/js/main.add96366.js",
+    "static/js/976.430aaf31.chunk.js": "/static/js/976.430aaf31.chunk.js",
+    "static/js/453.a94c5fff.chunk.js": "/static/js/453.a94c5fff.chunk.js",
+    "static/media/GriffCircleHead.png": "/static/media/GriffCircleHead.3a6c72a7c6c0a008b6b1.png",
+    "index.html": "/index.html",
+    "main.87a8ed82.css.map": "/static/css/main.87a8ed82.css.map",
+    "main.add96366.js.map": "/static/js/main.add96366.js.map",
+    "976.430aaf31.chunk.js.map": "/static/js/976.430aaf31.chunk.js.map",
+    "453.a94c5fff.chunk.js.map": "/static/js/453.a94c5fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87a8ed82.css",
+    "static/js/main.add96366.js"
+  ]
+}
