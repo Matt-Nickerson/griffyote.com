@@ -39,7 +39,7 @@ const Art = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: i * 0.1 }}
                     >
-          <Card key={i} isFooterBlurred className="border-none" radius="lg">
+          <Card key={i} isFooterBlurred className="border-none transition-transform duration-300 hover:scale-105" radius="lg">
             <div className="w-full aspect-square relative">
               <img
                 src={src}
