@@ -42,7 +42,7 @@ function Taskbar() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button variant="shadow" color="primary">
+          <Button radius="full" className='bg-[#AD483C]' href="/Contact"  variant="shadow">
             Contact
           </Button>
         </NavbarItem>
