@@ -31,7 +31,7 @@ const Art = () => {
     return (
         // to-[#AD483C] to-[#440044]
         <div className='bg-gradient-to-b from-[#000000] to-[#AD483C] min-h-screen p-8'>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+      <div className=" mx-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         {images.map((src, i) => (
            <motion.div
                         key={i}
