@@ -3,17 +3,32 @@ import griff from '../GriffCircleHead.png';
 import {Navbar,
     NavbarBrand, 
     NavbarContent, 
-    NavbarItem, 
+    NavbarItem,
+    NavbarMenuToggle,
+    NavbarMenu,
+    NavbarMenuItem,
 } from '@heroui/navbar';
 import {Link} from '@heroui/link';
 import {Button} from '@heroui/button';
+import {useState} from 'react';
 
 function Taskbar() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    const menuItems = [
+        { name: 'About', href: '/About' },
+        { name: 'Art', href: '/Art' },
+        { name: 'Portfolio', href: '/Portfolio' },
+        { name: 'Schedule', href: '/Schedule' },
+    ]
 
   return (
     <div>
-    <Navbar shouldHideOnScroll>
+    <Navbar shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden"
+        />
       <NavbarBrand>
       <img src={griff} alt="Griff" className=" mr-2 w-8 h-8 rounded-full" />
         <p className="font-semibold text-inherit">Griff Coyote </p>
@@ -47,6 +62,20 @@ function Taskbar() {
           </Button>
         </NavbarItem>
       </NavbarContent>
+       <NavbarMenu className='dark'>
+        {menuItems.map((item, i) => (
+          <NavbarMenuItem key={i}>
+            <Link
+              className="text-white"
+              href={item.href}
+
+              size="lg"
+            >
+              {item.name}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+      </NavbarMenu>
     </Navbar> 
     </div>
     );

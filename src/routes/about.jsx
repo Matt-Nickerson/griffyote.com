@@ -1,16 +1,55 @@
-
+import { motion } from "framer-motion";
 
 document.title = "Griff Coyote";
 const About = () => {
-    return (<div className='bg-gradient-to-b from-[#000000] to-[#AD483C] min-h-screen p-8'>
-                <div>
-            <h1 className="text-3xl font-bold">
-                About
-            </h1>
-            <p className="text-lg">
-                This is the about page.
-            </p>
+  return (
+    <div className="bg-gradient-to-b from-[#000000] to-[#79322a] min-h-screen p-8">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <div className="grid grid-cols-2 gap-12 mx-20 items-center justify-center">
+          <div>
+            <img
+              src="/fursuit/griffhednew1.png"
+              alt="Griff Coyote"
+              className="scale-50"
+            />
+          </div>
+          <div>
+            <h1 className="text-5xl font-bold">Hey its Griff :3</h1> 
+            <br />
+            <p className="text-lg">This is the about page.</p>
+          </div>
+          <img
+            src="/fursuit/griffhednew1.png"
+            alt="Griff Coyote"
+            className="scale-50"
+          />
+          <img
+            src="/fursuit/griffhednew1.png"
+            alt="Griff Coyote"
+            className="scale-50"
+          />
+          <img
+            src="/fursuit/griffhednew1.png"
+            alt="Griff Coyote"
+            className="scale-50"
+          />
+          <img
+            src="/fursuit/griffhednew1.png"
+            alt="Griff Coyote"
+            className="scale-50"
+          />
+          <img
+            src="/fursuit/griffhednew1.png"
+            alt="Griff Coyote"
+            className="scale-50"
+          />
         </div>
-    </div>);
-}
+      </motion.div>
+    </div>
+  );
+};
 export default About;
