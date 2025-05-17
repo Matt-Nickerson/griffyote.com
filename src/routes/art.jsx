@@ -13,6 +13,7 @@ const images = [
     '/jockGriff.png',
     '/slimGriff.png',
     '/thiccGriff.jpg',
+    '/muzzleGriff.png',
 ]
 
 const descriptions = [
@@ -25,6 +26,7 @@ const descriptions = [
     'Art by: Artist G',
     'Art by: Artist H',
     'Art by: Artist I',
+    'Art by: Artist J',
 ]
 
 const Art = () => {
