@@ -20,6 +20,7 @@ function Taskbar() {
         { name: 'Art', href: '/Art' },
         { name: 'Portfolio', href: '/Portfolio' },
         { name: 'Schedule', href: '/Schedule' },
+        { name: 'Contact', href: '/Contact' },
     ]
 
   return (
