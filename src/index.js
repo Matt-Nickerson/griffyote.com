@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
 import Taskbar from './components/Taskbar';
 
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
  <>
- <main className="dark text-foreground bg-background">
+ <main className="dark text-foreground bg-black">
     <Taskbar />
       <App />
       </main>
