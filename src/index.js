@@ -9,7 +9,7 @@ const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
  <>
- <main className="dark text-foreground bg-background">
+ <main className="dark text-foreground bg-black">
     <Taskbar />
       <App />
       </main>

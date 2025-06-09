@@ -25,6 +25,7 @@
     "bootstrap": "^5.3.3",
     "framer-motion": "^12.11.4",
     "griffyote": "file:",
+    "lucide-react": "^0.513.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^19.1.0",
