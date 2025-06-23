@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import {Link} from "@heroui/link";
+
 
 document.title = "Griff Coyote";
 const About = () => {
@@ -17,10 +19,40 @@ const About = () => {
               className="md:scale-75"
             />
           </div>
-          <div>
-            <h1 className="text-5xl font-bold">Hey its Griff :3</h1> 
+          <div className="text-center items-center">
+            <h1 className="text-5xl font-bold">Griff Coyote</h1> 
             <br />
-            <p className="text-lg">This is the about page.</p>
+            <Link
+                isExternal
+                href="https://www.instagram.com/griffyote/"
+                >
+                <img 
+                    src="/instagram.svg"
+                    alt="Instagram"
+                    className="filter invert inline w-8 h-8 mr-2"
+                />
+            </Link>
+
+            <Link
+                isExternal
+                href="https://t.me/Griffyote"
+                >
+                <img 
+                    src="/telegram.svg"
+                    alt="Telegram"
+                    className="filter invert inline w-8 h-8 mr-2"
+                />
+            </Link>
+            <Link
+                isExternal
+                href="https://x.com/griffyote"
+                >
+                <img
+                    src="/x.svg"
+                    alt="X"
+                    className="filter invert inline w-8 h-8 mr-2"
+                />
+            </Link>
           </div>    
         </div>
       </motion.div>
