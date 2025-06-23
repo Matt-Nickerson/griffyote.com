@@ -13,7 +13,7 @@ const Portfolio = () => {
             <p className="text-lg text-center mb-8">
                 Running list of projects I have worked on, both personal and professional.
             </p>
-            <div className="mx-20 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="mx-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Card className="border-none max-w-md ">
                     <CardHeader className="ml-2 flex gap-4">
                         <Hospital className="size-8"/>
@@ -31,6 +31,36 @@ const Portfolio = () => {
 The web application was developed using the PERN (PostgreSQL, Express, React, Node.js) stack with Typescript, Prisma ORM, Shadcn and Tailwind.
 As a lead software engineer, I helped gather software requirements by participating in brainstorming sessions, creating user stories, and planning out tasks and deadlines with priorities. I was the technical leader of the front-end team.
 </p>
+                    </CardFooter>
+                </Card>
+                <Card className="border-none max-w-md ">
+                    <CardHeader className="ml-2 flex gap-4">
+                        <div className="flex flex-col ">
+                             <p className="text-lg font-semibold">TBD</p>
+                        </div>
+                    </CardHeader>
+                    <Divider/>
+                    <CardBody>
+                        <p>TBD</p>
+                    </CardBody>
+                    <Divider/>
+                    <CardFooter className="flex flex-col mb-2">
+                         <p className="text-medium mb-4"> TBD </p>
+                    </CardFooter>
+                </Card>
+                <Card className="border-none max-w-md ">
+                    <CardHeader className="ml-2 flex gap-4">
+                        <div className="flex flex-col ">
+                             <p className="text-lg font-semibold">TBD</p>
+                        </div>
+                    </CardHeader>
+                    <Divider/>
+                    <CardBody>
+                        <p>TBD</p>
+                    </CardBody>
+                    <Divider/>
+                    <CardFooter className="flex flex-col mb-2">
+                         <p className="text-medium mb-4"> TBD </p>
                     </CardFooter>
                 </Card>
             </div>
