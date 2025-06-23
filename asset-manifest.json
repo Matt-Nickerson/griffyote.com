@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e567825.css",
-    "main.js": "/static/js/main.50198ac6.js",
+    "main.css": "/static/css/main.b3a77e7c.css",
+    "main.js": "/static/js/main.11a2ac9b.js",
     "static/js/707.65a47f7c.chunk.js": "/static/js/707.65a47f7c.chunk.js",
     "static/js/453.7bbdee46.chunk.js": "/static/js/453.7bbdee46.chunk.js",
     "static/media/GriffCircleHead.png": "/static/media/GriffCircleHead.3a6c72a7c6c0a008b6b1.png",
     "index.html": "/index.html",
-    "main.5e567825.css.map": "/static/css/main.5e567825.css.map",
-    "main.50198ac6.js.map": "/static/js/main.50198ac6.js.map",
+    "main.b3a77e7c.css.map": "/static/css/main.b3a77e7c.css.map",
+    "main.11a2ac9b.js.map": "/static/js/main.11a2ac9b.js.map",
     "707.65a47f7c.chunk.js.map": "/static/js/707.65a47f7c.chunk.js.map",
     "453.7bbdee46.chunk.js.map": "/static/js/453.7bbdee46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e567825.css",
-    "static/js/main.50198ac6.js"
+    "static/css/main.b3a77e7c.css",
+    "static/js/main.11a2ac9b.js"
   ]
 }
