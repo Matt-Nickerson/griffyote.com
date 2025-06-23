@@ -13,7 +13,7 @@ const Portfolio = () => {
             <p className="text-lg text-center mb-8">
                 Running list of projects I have worked on, both personal and professional.
             </p>
-            <div className="mx-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="mx-10 md:mx-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Card className="border-none max-w-md ">
                     <CardHeader className="ml-2 flex gap-4">
                         <Hospital className="size-8"/>
