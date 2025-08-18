@@ -31,8 +31,10 @@ function Taskbar() {
           className="sm:hidden"
         />
       <NavbarBrand>
-      <img src={griff} alt="Griff" className=" mr-2 w-8 h-8 rounded-full" />
+        <Link color="foreground" href="/About">
+      <img src={griff} alt="Griff" className=" mr-2 w-8 h-8 rounded-full"/>
         <p className="font-semibold text-inherit">Griff Coyote </p>
+        </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
