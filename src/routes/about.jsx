@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import {Link} from "@heroui/link";
+import { Card, CardHeader, CardBody } from "@heroui/card";
 
 
 document.title = "Griff Coyote";
@@ -54,23 +55,38 @@ const About = () => {
                 />
             </Link>
           </div>  
+  
           <div className="text-lg text-white">
-            <div className="text-5xl text-white font-bold mt-20">About Me</div>
+            <Card className="bg-[#580411] text-white p-6">
+            <CardHeader className="text-5xl text-white font-bold">About Me</CardHeader>
             <br />
-            <p>
+            
+            <CardBody className="text-xl text-white">
               Hi! I’m Griff, a coyote fursuiter and software engineer based in
-              Boston, MA. I love creating art, coding, and spending time with my
-              friends.
-            </p>
-            <br />
-            <p>
-              This website is a collection of my projects, art, and other
+              Worcester, MA. I love coding, rock climbing and meeting new people!
+              This website is a collection of my projects, commissioned art, and other
               interests. Feel free to explore and learn more about me!
-            </p>  
-            </div>
-            <div>
-                <p>Other side</p>
-            </div>
+            </CardBody>  
+            </Card>
+          </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 justify-center items-center mt-10'>
+              
+                <img 
+                  src="/fursuit/img_6016.jpg"
+                  alt="Griff Coyote"
+                  className="md:scale-75 mt-10"
+                ></img>
+                <img 
+                  src="/fursuit/img_5849.jpg"
+                  alt="Griff Coyote"
+                  className="md:scale-75 mt-10"
+                  ></img>
+                  <img 
+                  src="/fursuit/img_5860.jpg"
+                  alt="Griff Coyote" 
+                  className="md:scale-75 mt-10"
+                  ></img>
+                  </div>
         </div>
       </motion.div>
     </div>

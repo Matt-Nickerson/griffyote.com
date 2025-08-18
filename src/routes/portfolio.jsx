@@ -5,15 +5,15 @@ import {Hospital} from "lucide-react";
 
 const Portfolio = () => {
     return (
-        <div className='bg-gradient-to-b from-[#000000] to-[#AD483C] min-h-screen p-8'>
+        <div className='bg-gradient-to-b from-[#000000] to-[#AD483C] min-h-screen p-8 justify-center'>
             <h1 className="text-3xl font-bold text-center mb-4">
                 Project Portfolio
             </h1>
             <p className="text-lg text-center mb-8">
                 Running list of projects I have worked on, both personal and professional.
             </p>
-            <div className="mx-10 md:mx-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <Card className="border-none max-w-md bg-[#580411] text-white">
+            <div className="mx-10 md:mx-20 lg:mx-30 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center">
+                <Card className="border-none max-w-md min-h-[600px] scale-105 bg-[#580411] text-white">
                     <CardHeader className="ml-2 flex gap-4">
                         <Hospital className="size-8"/>
                         <div className="flex flex-col ">
@@ -32,7 +32,7 @@ As a lead software engineer, I helped gather software requirements by participat
 </p>
                     </CardFooter>
                 </Card>
-                <Card className="border-none max-w-md bg-[#580411]">
+                <Card className="border-none max-w-md min-h-[400px] scale-105 bg-[#580411]">
                     <CardHeader className="ml-2 flex gap-4">
                         <div className="flex flex-col ">
                              <p className="text-lg font-semibold">TBD</p>
@@ -47,7 +47,7 @@ As a lead software engineer, I helped gather software requirements by participat
                          <p className="text-medium mb-4"> TBD </p>
                     </CardFooter>
                 </Card>
-                <Card className="border-none max-w-md bg-[#580411]">
+                <Card className="border-none max-w-md min-h-[400px] scale-105 bg-[#580411]">
                     <CardHeader className="ml-2 flex gap-4">
                         <div className="flex flex-col ">
                              <p className="text-lg font-semibold">TBD</p>
