@@ -53,7 +53,24 @@ const About = () => {
                     className="filter invert inline w-8 h-8 mr-2"
                 />
             </Link>
-          </div>    
+          </div>  
+          <div className="text-lg text-white">
+            <div className="text-5xl text-white font-bold mt-20">About Me</div>
+            <br />
+            <p>
+              Hi! I’m Griff, a coyote fursuiter and software engineer based in
+              Boston, MA. I love creating art, coding, and spending time with my
+              friends.
+            </p>
+            <br />
+            <p>
+              This website is a collection of my projects, art, and other
+              interests. Feel free to explore and learn more about me!
+            </p>  
+            </div>
+            <div>
+                <p>Other side</p>
+            </div>
         </div>
       </motion.div>
     </div>

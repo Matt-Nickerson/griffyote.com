@@ -1,7 +1,6 @@
 import {Card, CardHeader, CardBody, CardFooter} from "@heroui/card";
 import {Divider} from "@heroui/divider";
 import {Hospital} from "lucide-react";
-import {Button} from "@heroui/button";
 
 
 const Portfolio = () => {
@@ -14,7 +13,7 @@ const Portfolio = () => {
                 Running list of projects I have worked on, both personal and professional.
             </p>
             <div className="mx-10 md:mx-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <Card className="border-none max-w-md ">
+                <Card className="border-none max-w-md bg-[#580411] text-white">
                     <CardHeader className="ml-2 flex gap-4">
                         <Hospital className="size-8"/>
                         <div className="flex flex-col ">
@@ -33,7 +32,7 @@ As a lead software engineer, I helped gather software requirements by participat
 </p>
                     </CardFooter>
                 </Card>
-                <Card className="border-none max-w-md ">
+                <Card className="border-none max-w-md bg-[#580411]">
                     <CardHeader className="ml-2 flex gap-4">
                         <div className="flex flex-col ">
                              <p className="text-lg font-semibold">TBD</p>
@@ -48,7 +47,7 @@ As a lead software engineer, I helped gather software requirements by participat
                          <p className="text-medium mb-4"> TBD </p>
                     </CardFooter>
                 </Card>
-                <Card className="border-none max-w-md ">
+                <Card className="border-none max-w-md bg-[#580411]">
                     <CardHeader className="ml-2 flex gap-4">
                         <div className="flex flex-col ">
                              <p className="text-lg font-semibold">TBD</p>
